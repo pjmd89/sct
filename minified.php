@@ -18,7 +18,7 @@ $files = array(
 
 $path = "css";
 
-$out = "sct.min.css";
+$out = "../sct.min.css";
 
 minified($files, $path, $out);
 
