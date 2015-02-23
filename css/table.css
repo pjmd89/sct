@@ -1,0 +1,26 @@
+.sct-table{
+	width:100%;
+	border:1px solid silver;
+	-webkit-border-radius:4px;
+	   -moz-border-radius:4px;
+	    -ms-border-radius:4px;
+	     -o-border-radius:4px;
+	        border-radius:4px;
+
+}
+.sct-table thead{
+	background-color:silver;
+}
+.sct-table thead th{
+	text-align:center;
+	padding:5px;
+}
+.sct-table tbody tr:nth-child(odd){
+	background-color:#F7F7F7;
+}
+.sct-table tbody tr:nth-child(even){
+	background-color:#E0E0E0;
+}
+.sct-table tbody tr td{
+	padding:4px;
+}

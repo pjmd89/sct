@@ -1,0 +1,131 @@
+.sct-icon-16,
+.sct-icon-16-hover{
+	display:inline-flex;
+	line-height:16px;
+	text-decoration:none;
+	color:inherit;
+}
+.sct-icon-16:before,
+.sct-icon-16-hover:before{
+	content:"";
+	width:16px;
+	height:16px;
+	display:inline-block;
+	padding:0;
+	background-image:url(../img/sct-icons-16.png);
+	background-repeat:no-repeat;
+	white-space:pre;
+}
+.sct-icon-16-hover:hover{
+	cursor:pointer;
+}
+.sct-icon-16-user-hover:before,
+.sct-icon-16-user:before{
+	background-position:0 0;
+}
+.sct-icon-16-users-hover:before,
+.sct-icon-16-users:before{
+	background-position:-16px 0px;
+}
+.sct-icon-16-schedule-hover:before,
+.sct-icon-16-schedule:before{
+	background-position:-32px 0px;
+}
+.sct-icon-16-money-hover:before,
+.sct-icon-16-money:before{
+	background-position:-48px 0px;
+}
+.sct-icon-16-timer-hover:before,
+.sct-icon-16-timer:before{
+	background-position:-64px 0px;
+}
+.sct-icon-16-stock-marker-hover:before,
+.sct-icon-16-stock-marker:before{
+	background-position:-80px 0px;
+}
+.sct-icon-16-gear-hover:before,
+.sct-icon-16-gear:before{
+	background-position:-96px 0px;
+}
+.sct-icon-16-pencil-hover:before,
+.sct-icon-16-pencil:before{
+	background-position:-112px 0px;
+}
+.sct-icon-16-refresh-hover:before,
+.sct-icon-16-refresh:before{
+	background-position:-128px 0px;
+}
+.sct-icon-16-major-hover:before,
+.sct-icon-16-major:before{
+	background-position:-144px 0px;
+}
+.sct-icon-16-minor-hover:before,
+.sct-icon-16-minor:before{
+	background-position:-160px 0px;
+}
+.sct-icon-16-user-hover:hover:before,
+.sct-icon-16-user-color > .sct-icon-16-user:before,
+.sct-icon-16-user-color > .sct-icon-16-user-hover:before,
+.sct-icon-16-user-color:before{
+	background-position:0 -16px;
+}
+.sct-icon-16-users-hover:hover:before,
+.sct-icon-16-users-color > .sct-icon-16-users:before,
+.sct-icon-16-users-color > .sct-icon-16-users-hover:before,
+.sct-icon-16-users-color:before{
+	background-position:-16px -16px;
+}
+.sct-icon-16-schedule-hover:hover:before,
+.sct-icon-16-schedule-color > .sct-icon-16-schedule:before,
+.sct-icon-16-schedule-color > .sct-icon-16-schedule-hover:before,
+.sct-icon-16-schedule-color:before{
+	background-position:-32px -16px;
+}
+.sct-icon-16-money-hover:hover:before,
+.sct-icon-16-money-color > .sct-icon-16-money:before,
+.sct-icon-16-money-color > .sct-icon-16-money-hover:before,
+.sct-icon-16-money-color:before{
+	background-position:-48px -16px;
+}
+.sct-icon-16-timer-hover:hover:before,
+.sct-icon-16-timer-color > .sct-icon-16-timer:before,
+.sct-icon-16-timer-color > .sct-icon-16-timer-hover:before,
+.sct-icon-16-timer-color:before{
+	background-position:-64px -16px;
+}
+.sct-icon-16-stock-marker-hover:hover:before,
+.sct-icon-16-stock-marker-color > .sct-icon-16-stock-marker:before,
+.sct-icon-16-stock-marker-color > .sct-icon-16-stock-marker-hover:before,
+.sct-icon-16-stock-marker-color:before{
+	background-position:-80px -16px;
+}
+.sct-icon-16-gear-hover:hover:before,
+.sct-icon-16-gear-color > .sct-icon-16-gear:before,
+.sct-icon-16-gear-color > .sct-icon-16-gear-hover:before,
+.sct-icon-16-gear-color:before{
+	background-position:-96px -16px;
+}
+.sct-icon-16-pencil-hover:hover:before,
+.sct-icon-16-pencil-color > .sct-icon-16-pencil:before,
+.sct-icon-16-pencil-color > .sct-icon-16-pencil-hover:before,
+.sct-icon-16-pencil-color:before{
+	background-position:-112px -32px;
+}
+.sct-icon-16-refresh-hover:hover:before,
+.sct-icon-16-refresh-color > .sct-icon-16-refresh:before,
+.sct-icon-16-refresh-color > .sct-icon-16-refresh-hover:before,
+.sct-icon-16-refresh-color:before{
+	background-position:-128px -32px;
+}
+.sct-icon-16-major-hover:hover:before,
+.sct-icon-16-major-color > .sct-icon-16-major:before,
+.sct-icon-16-major-color > .sct-icon-16-major-hover:before,
+.sct-icon-16-major-color:before{
+	background-position:-144px -32px;
+}
+.sct-icon-16-minor-hover:hover:before,
+.sct-icon-16-minor-color > .sct-icon-16-minor:before,
+.sct-icon-16-minor-color > .sct-icon-16-minor-hover:before,
+.sct-icon-16-minor-color:before{
+	background-position:-160px -32px;
+}

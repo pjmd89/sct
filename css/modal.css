@@ -1,0 +1,51 @@
+.sct-modal{
+	position:fixed;
+	z-index:1000;
+	width:100%;
+	height:100%;
+	top:0;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	-webkit-transition: opacity 0.5s linear;
+	   -moz-transition: opacity 0.5s linear;
+	    -ms-transition: filter 0.5s linear;
+	     -o-transition: opacity 0.5s linear;
+	        transition: opacity 0.5s linear;
+}
+.sct-modal .sct-modal-background{
+	position:absolute;
+	z-index:0;
+	top:0;
+	display:block;
+	width:100%;
+	height:100%;
+	background-color:black;
+	-khtml-opacity:0.3;
+	  -moz-opacity:0.3;
+	       opacity:0.3;
+	filter:alpha(opacity=30);
+}
+.sct-modal .sct-dialog{
+	z-index:1;
+	position:absolute;
+	display:inline-block;
+	-webkit-border-radius:4px;
+	   -moz-border-radius:4px;
+		-ms-border-radius:4px;
+	     -o-border-radius:4px;
+	        border-radius:4px;
+	background-color:white;
+	border:1px solid #CCCCCC;
+	padding:10px;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	    -ms-box-sizing:border-box;
+	     -o-box-sizing:border-box;
+	        box-sizing:border-box;
+	-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgba(204, 204, 204, 0.8);
+	   -moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgba(204, 204, 204, 0.8);
+	    -ms-box-shadow:0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgba(204, 204, 204, 0.8);
+	     -o-box-shadow:0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgba(204, 204, 204, 0.8);
+	        box-shadow:0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px rgba(204, 204, 204, 0.8);
+}

@@ -1,0 +1,21 @@
+.sct-file-upload-item{
+	text-align:left;
+	margin-bottom:5px;
+}
+.sct-file-upload-progress-text{	
+	margin-left:15px;
+}
+.sct-file-upload-content{
+	overflow:auto;
+	max-height:300px;
+	width:400px;
+}
+.sct-file-upload-progressbar{
+	text-align:center !important;
+}
+.sct-file-upload-progressbar-inner-label{
+	display:inline-block;
+	font-size:12px;
+	margin:0 auto;
+	padding:0;
+}

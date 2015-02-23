@@ -1,0 +1,60 @@
+.sct-debugger{
+    height: 400px;
+    overflow: auto;
+    width: 100%;
+	background-color:#EBF4FB;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	    -ms-box-sizing:border-box;
+	     -o-box-sizing:border-box;
+	        box-sizing:border-box;
+}
+.sct-debugger .sct-debugger-error,
+.sct-debugger .sct-debugger-log{
+	width:100%;
+	overflow:hidden;
+	margin:0;
+	padding:2px;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	    -ms-box-sizing:border-box;
+	     -o-box-sizing:border-box;
+	        box-sizing:border-box;
+}
+.sct-debugger .sct-debugger-error .sct-debugger-value{
+	color:red;
+	font-weight:bold;
+}
+.sct-debugger .sct-debugger-error .sct-debugger-value,
+.sct-debugger .sct-debugger-log .sct-debugger-value{
+	float:left;
+}
+
+.sct-debugger .sct-debugger-error .sct-debugger-file_info,
+.sct-debugger .sct-debugger-log .sct-debugger-file_info{
+	float:right;
+}
+
+.sct-debugger .sct-debugger-error .sct-debugger-file_info .sct-debugger-file,
+.sct-debugger .sct-debugger-log .sct-debugger-file_info .sct-debugger-file{
+	
+}
+
+.sct-debugger .sct-debugger-error .sct-debugger-file_info .sct-debugger-line,
+.sct-debugger .sct-debugger-log .sct-debugger-file_info .sct-debugger-line{
+	
+}
+.sct-debugger .sct-debugger-error .sct-debugger-file_info .sct-debugger-file:before,
+.sct-debugger .sct-debugger-error .sct-debugger-file_info .sct-debugger-line:before,
+.sct-debugger .sct-debugger-log .sct-debugger-file_info .sct-debugger-file:before,
+.sct-debugger .sct-debugger-log .sct-debugger-file_info .sct-debugger-line:before{
+	font-weight:bold;
+}
+.sct-debugger .sct-debugger-error .sct-debugger-file_info .sct-debugger-file:before,
+.sct-debugger .sct-debugger-log .sct-debugger-file_info .sct-debugger-file:before{
+	content:"File: ";
+}
+.sct-debugger .sct-debugger-error .sct-debugger-file_info .sct-debugger-line:before,
+.sct-debugger .sct-debugger-log .sct-debugger-file_info .sct-debugger-line:before{
+	content:" Line: ";
+}

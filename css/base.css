@@ -1,0 +1,67 @@
+body{
+	font-family: Tahoma,Arial;
+	font-size:14px;
+	font-weight:normal;
+	color:#333333;
+	letter-spacing:normal;
+}
+body{
+	margin:0;
+	padding:0;
+}
+em:before,
+strong:before,
+em:after,
+strong:after{
+	content:'"';
+}
+h1{
+	font-size:26px;
+	margin:0 0 10px;
+}
+h2{
+	font-size:24px;
+	margin:0 0 10px;
+}
+h3{
+	font-size:22px;
+	margin:0 0 10px;
+}
+h4{
+	font-size:20px;
+	margin:0 0 10px;
+}
+h5{
+	font-size:18px;
+	margin:0 0 10px;
+}
+h6{
+	font-size:14px;
+	margin:0 0 10px;
+}
+.sct-helper-float{
+	overflow:hidden;
+}
+.sct-helper-left{
+	float:left;
+}
+.sct-helper-right{
+	float:right;
+}
+.sct-helper-clear-both{
+	clear:both;
+}
+.sct-helper-clear-left{
+	clear:left;
+}
+.sct-helper-clear-right{
+	clear:right;
+}
+.sct-helper-fixed{
+	position:fixed;
+	top:0;
+}
+.sct-helper-fixed-bottom{
+	position:fixed;
+	bottom:0;
+}
